@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: KWTestApp
+  buildpack: liberty-for-java
+  path: ./target/KWTestApp.zip
+  memory: 512M
+  random-route: true
